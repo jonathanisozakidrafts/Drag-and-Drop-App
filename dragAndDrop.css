@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+#drag-spots-box {
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-gap: 5%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border: solid;
+    border-radius: 5px;
+}
+
+#drag-divs-box {
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-gap: 5%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    border: solid;
+    border-radius: 5px;
+}
+
+.drag-spots {
+    width: 90%;
+    height: 120px;
+    margin: 5px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 10px;
+    background-color: rgba(180, 180, 180, 0.5);
+}
+
+.drag-div-original {
+    width: 90%;
+    height: 120px;
+    margin: 5px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.drag-items {
+    width: 90%;
+    height: 100px;
+    margin: 5px auto;
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#drag-div-1 {
+    background-color: rgba(218, 10, 10, 0.75)
+}
+
+#drag-div-2 {
+    background-color: rgba(15, 29, 158, 0.4)
+}
