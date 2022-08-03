@@ -1,0 +1,12 @@
+{
+  "name": "drag-and-drop-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dragAndDrop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
