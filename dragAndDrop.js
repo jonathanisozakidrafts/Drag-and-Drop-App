@@ -14,7 +14,7 @@ const draggableDivs = document.querySelectorAll('.drag-items');
 /* This code makes each div element that could be dragged have a 'dragstart' event. */
 draggableDivs.forEach(function(draggableDiv) {
     draggableDiv.addEventListener("dragstart", function(event) {
-        dragged = event.target;
+        dragged = event.target; //This specifies that the event.target is the item - a.k.a. Whatever is clicked and dragged becomes the dragged item.
     });
 });
 
@@ -40,6 +40,7 @@ dragSpots.forEach(function(dragSpot) {
         }
     });
 
+    // This event listener removes the block element and appends it to the drag spot.
     dragSpot.addEventListener("drop", function(event) {
         if (event.target.className === "drag-spots") {
             dragged.parentNode.removeChild(dragged);
@@ -70,6 +71,7 @@ originalSpots.forEach(function(originalSpot) {
         }
     });
 
+    // This event listener removes the block element and appends it to the drag spot.
     originalSpot.addEventListener("drop", function(event) {
         if (event.target.className === "drag-div-original") {
             dragged.parentNode.removeChild(dragged);
